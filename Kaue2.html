@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Loja de Stands inspirada em JoJo's Bizarre Adventure. Compre seu stand favorito agora!">
+<meta property="og:title" content="Loja de Stands">
+<meta property="og:description" content="Descubra e compre stands incríveis de JoJo's Bizarre Adventure.">
+<meta property="og:image" content="https://example.com/stand_logo.png">
+<meta property="og:type" content="website">
+    <title>Loja de Stands</title>
+    <link rel="shortcut icon" href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cb0a1386-45ef-4e16-a69b-1525078ffa39/ddht534-8082ee42-e5b6-4947-a616-e6fef5594819.png/v1/fill/w_529,h_1510/stand_arrow_1_by_justazag_ddht534-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTkzMiIsInBhdGgiOiJcL2ZcL2NiMGExMzg2LTQ1ZWYtNGUxNi1hNjliLTE1MjUwNzhmZmEzOVwvZGRodDUzNC04MDgyZWU0Mi1lNWI2LTQ5NDctYTYxNi1lNmZlZjU1OTQ4MTkucG5nIiwid2lkdGgiOiI8PTY3NyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.s4lgdUvVTJ2RURWJs2LAQQJc9GZ-rQdZ38O3dtSMJR0" type="image/x-icon">
+    <link rel="stylesheet" href="Stando.css">
+    <link rel="stylesheet" href="Stando.css">
+    <script src="Stando.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Loja dos Stands de JoJo</h1>
+        </div>
+        <nav>
+            <ul>
+                [<a href="#">Home</a>]
+                [<a href="#">Produtos</a>]
+                [<a href="#">Carrinho</a>]
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Aprendendo sobre stands!</h2>
+    
+            <p>Os <strong>Stands</strong> são representações <mark>do espiritos de luta</mark> <u>de um ser vivo</u> podem ser algo simples como uma prede de saber quem vai de vasco...<b>PARA UM TANQUE DE BATALHA QUE TEM COMO USUARIO UM RATO!!!</b> <sub>ou so uma bola de fut.</sub></p>
+    
+            <a href="https://jojowiki.com/JoJo_Wiki">Clique aqui para ter conhecimento sobre esses stands incriveis e o mundo que vivem.</a> <img src="https://c.tenor.com/I6j5DmlTTk0AAAAd/tenor.gif">
+        </section>
+        <section class="produtos">
+            <h2>Selecione seu Stand</h2>
+
+            <div class="produto" id="produto1">
+                <img src="https://tiermaker.com/images/chart/chart/project-jojo-stands-tier-list-584665/symphony-of-destructionpng.png" alt="Stand 1">
+                <h3>Symphony Of Destruction</h3>
+                <p>Preço: R$ 300,00</p>
+                <label for="quantidade1">Quantidade: </label>
+                <input type="number" id="quantidade1" name="quantidade" min="1" max="10">
+                <button class="adicionar" onclick="adicionarCarrinho(1, 'Symphony Of Destruction', 300)">Adicionar ao Carrinho</button>
+            </div>
+            
+            <div class="produto" id="produto2">
+                <img src="https://trello.com/1/cards/5cf43cbcd202db7955bd468b/attachments/5cf45ed045fde0413a66240d/previews/5cf45ed045fde0413a66240f/download/RobloxPlayerBeta_DCeF0Wrm9A.png" alt="Stand 2">
+                <h3>White Wedding</h3>
+                <p>Preço: R$ 350,00</p>
+                <label for="quantidade2">Quantidade: </label>
+                <input type="number" id="quantidade2" name="quantidade" min="1" max="10">
+                <button class="adicionar" onclick="adicionarCarrinho(2, 'White Wedding', 350)">Adicionar ao Carrinho</button>
+            </div>
+            
+            <div class="produto" id="produto3">
+                <img src="https://trello.com/1/cards/5db58c8812f71d1edd38ff01/attachments/5dbcf08fb2262c1d98f55495/previews/5dbcf08fb2262c1d98f55499/download/image.png" alt="Stand 3">
+                <h3>Guest Platinum</h3>
+                <p>Preço: R$ 400,00</p>
+                <label for="quantidade3">Quantidade: </label>
+                <input type="number" id="quantidade3" name="quantidade" min="1" max="10">
+                <button class="adicionar" onclick="adicionarCarrinho(3, 'Guest Platinum', 400)">Adicionar ao Carrinho</button>
+            </div>
+            
+            <div class="produto" id="produto4">
+                <img src="https://preview.redd.it/r3lcc7gf64791.png?width=540&format=png&auto=webp&s=9d32ec46f884486fd59dfd01453bf5d07bf30d75" alt="Stand 4">
+                <h3>Melvin</h3>
+                <p>Preço: R$ 50,00</p>
+                <label for="quantidade4">Quantidade: </label>
+                <input type="number" id="quantidade4" name="quantidade" min="1" max="1">
+                <button class="adicionar" onclick="adicionarCarrinho(4, 'Melvin', 50)">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+        <br>
+        <section id="carrinhoSection">
+            <h2>Seu Carrinho</h2>
+            <div id="carrinho"></div>
+            <p id="totalCarrinho">Total: R$ 0,00</p>
+            <button onclick="finalizarCompra()">Finalizar Compra</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Loja dos Stands - JoJo's Bizarre Adventure e Melvin</p>
+    </footer>
+    <script>
+
+        let carrinho = [];
+    
+        
+        function adicionarCarrinho(id, nome, preco) {
+            const quantidade = document.getElementById(`quantidade${id}`).value;
+    
+            if (quantidade > 0) {
+                const produto = {
+                    id,
+                    nome,
+                    preco,
+                    quantidade: parseInt(quantidade),
+                    total: preco * quantidade
+                };
+    
+                
+                let produtoExistente = carrinho.find(item => item.id === id);
+                if (produtoExistente) {
+                    produtoExistente.quantidade += produto.quantidade;
+                    produtoExistente.total = produtoExistente.preco * produtoExistente.quantidade;
+                } else {
+                    carrinho.push(produto);
+                }
+    
+               
+                atualizarCarrinho();
+            }
+        }
+    
+        
+        function atualizarCarrinho() {
+            let carrinhoHTML = '';
+            let totalCarrinho = 0;
+    
+            carrinho.forEach(item => {
+                carrinhoHTML += `
+                    <div>
+                        <h4>${item.nome}</h4>
+                        <p>Quantidade: ${item.quantidade}</p>
+                        <p>Total: R$ ${item.total.toFixed(2)}</p>
+                    </div>
+                `;
+                totalCarrinho += item.total;
+            });
+    
+            
+            document.getElementById('carrinho').innerHTML = carrinhoHTML;
+            document.getElementById('totalCarrinho').innerText = `Total: R$ ${totalCarrinho.toFixed(2)}`;
+        }
+    
+       
+        function finalizarCompra() {
+            if (carrinho.length > 0) {
+                alert('Compra Finalizada!');
+                
+            } else {
+                alert('Carrinho vazio!');
+            }
+        }
+    </script>    
+</body>
+</html>
